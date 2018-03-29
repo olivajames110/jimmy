@@ -1,0 +1,14 @@
+.nav-box {
+ padding: 30px 0;
+ cursor: pointer;
+}
+
+.nav-box:hover {
+ background-color: #035D90;
+ transition: .5s;
+}
+
+.nav-icon-text {
+ color: #a9d9f5;
+ font-size: 14px;
+}

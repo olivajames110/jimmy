@@ -1,0 +1,43 @@
+/* .side-nav {
+ position: relative;
+ display: block;
+ float: right;
+} */
+
+.nav {
+ background-color: #03486F;
+ text-align: center;
+ height: 100%;
+}
+
+.nav-box {
+ padding: 30px 0;
+ cursor: pointer;
+}
+
+.nav-box:hover {
+ background-color: #035D90;
+ transition: .5s;
+}
+
+.nav-icon-text {
+ color: #a9d9f5;
+ font-size: 14px;
+}
+
+.side-nav-not {
+ position: relative;
+}
+
+.notification {
+ color: white;
+ background-color: red;
+ border-radius: 20px;
+ padding: 5px;
+ position: absolute;
+ right: 0;
+ top: 25px;
+ right: 10px;
+ font-size: 8px;
+ width: 9px;
+}

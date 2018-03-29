@@ -1,0 +1,191 @@
+
+.container {
+  padding: 25px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+
+.marketing-material-header {
+ background-color: #fff;
+ margin-top: 4px;
+}
+
+.interior-header {
+ color: #03486f;
+}
+
+.interior-sub-header , .marketing-material-container-box {
+ color: #0a7ab9;
+ padding-top: 5px;
+}
+
+.marketing-material-content-holder {
+ display: grid;
+ grid-template-columns: 3fr 1fr;
+ grid-gap: 20px;
+}
+
+.marketing-material-container-box {
+ background-color: #fff;
+ padding: 20px;
+ border: 1px solid #e4e4e4;
+}
+
+.marketing-material-welcome-message-header {
+ position: relative;
+ display: flex;
+ 
+}
+
+.interior-content-sub-header {
+ padding-top: 5px;
+ color: #403f45;
+ opacity: .6;
+ position: relative;
+
+}
+
+
+
+.marketing-welcome-message-body {
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ grid-gap: 5px;
+ padding-top: 20px;
+}
+
+.marketing-welcome-image-title {
+ font-size: 14px;
+ text-align: left;
+ color: #03486f;
+ font-weight: bold;
+ padding-top: 15px;
+}
+
+.marketing-welcome-image-desc {
+ color: #403f45;
+ font-size: 12px;
+ padding-top: 5px;
+ padding-right: 5px;
+
+}
+
+
+
+
+/* MARKETING MATERIAL NAVIGATION */
+.marketing-material-navigation {
+ position: relative;
+ display: inline;
+ 
+}
+
+.interior-nav-links {
+ justify-content: center;
+ color: #092231;
+ opacity: .8;
+}
+
+ul {
+ padding: 30px 0 10px 0;
+ display: flex;
+ list-style-type: none;
+ text-transform: uppercase;
+ font-size: 14px;
+ 
+}
+
+
+
+
+.interior-nav-links li {
+ padding: 10px;
+ margin: 20px;
+ color: #403f45;
+ cursor: pointer;
+}
+
+.interior-nav-links li:hover {
+ color: #035d90;
+}
+
+.interior-nav-links-active {
+ color: #035d90 !important;
+ border-bottom: 4px solid #035d90;
+}
+
+
+/* MARKETING CALENDAR */
+
+
+.marketing-calendar {
+ background-color: white;
+}
+
+.marketing-calendar-body {
+ padding-top: 20px; 
+ border: 1px solid #fff;
+ position: relative;
+}
+
+.react-calendar {
+ border: none;
+}
+
+.calendar-add-activity {
+ background-color: #0a7ab9;
+ color: white;
+ border: none;
+ padding: 10px;
+ margin-top: 20px;
+ position: absolute;
+ right: 0;
+}
+
+.calendar-add-activity:hover {
+ background-color: #0a7ab9;
+opacity: .6;
+}
+
+.previous-activities {
+  margin-top: 15px;
+}
+
+.marketing-material-image-gallery-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+  margin-top: 10px;
+}
+
+.marketing-material-image-gallery-wrapper div {
+  flex: 1 1 30%;
+}
+
+/* .marketing-material-image-gallery-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-flow: columns; 
+  margin-top: 20px;
+} */
+
+.image-style {
+  margin: 10px;
+
+}
