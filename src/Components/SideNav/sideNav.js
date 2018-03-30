@@ -26,6 +26,12 @@ const SideNav = () => {
           </div>
         </Link>
 
+        <Link to="/marketplace" style={{ textDecoration: 'none' }}>
+        <div className="side-nav-not">
+          <NavBox icon="shopping-cart" text="Marketplace" />
+        </div>
+      </Link>
+
         <Link to="/widget-maker" style={{ textDecoration: 'none' }}>
           <NavBox icon="wpforms" text="Widget Maker" />
         </Link>

@@ -1,0 +1,121 @@
+.marketplace-search {
+ background-color: slategrey;
+ padding: 125px;
+ background: linear-gradient(135deg,#3714ade6 0,rgba(204,0,0,.9) 100%),url(/app/img/noise-cover.png)
+}
+
+.marketplace-search-text-area {
+ color: #fff;
+ text-align: center;
+ 
+}
+
+.marketplace-search-text {
+ font-weight: 300;
+}
+
+.marketplace-search-input {
+ background-color: white;
+ padding: 15px;
+ width: 60%;
+ margin-top: 25px;
+}
+
+.fa-search::before {
+ color: #a7a4aa;
+ margin-left: -50px;
+ margin-top: 10px;
+ cursor: pointer;
+}
+
+.marketplace-content-holder {
+ display: grid;
+ grid-template-columns: repeat(3 , 1fr);
+ grid-gap: 20px;
+ padding: 30px 0;
+}
+
+.marketplace-card-box {
+ background-color: #fff;
+ border: 1px solid #e4e4e4;
+ /* margin: 30px 0;  */
+ box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 0.2);
+}
+
+.marketplace-card-image {
+ width: 100%;
+ height: 170px;
+ background-position: center;
+ background-size: cover;
+
+}
+
+.marketplace-card-content {
+ padding: 20px 12px;
+}
+
+.marketplace-search-input{
+ border: none;
+ box-shadow: 0px 0px 8px 3px rgba(255, 255, 255, 0.25);
+}
+
+.marketplace-header {
+ position: relative;
+ padding-bottom: 10px;
+ color: #2f2e30;
+}
+
+.marketplace-card-title {
+ font-size: 18px;
+ display: inline;
+
+}
+
+.marketplace-price {
+ float: right;
+}
+
+.marketplace-card-desc {
+ font-size: 14px;
+ color: #777579;
+ opacity: .75;
+}
+
+.market-place-price-and-contact {
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ padding-top: 15px;
+ font-size: 16px;
+}
+
+.marketplace-contact-btn {
+ padding: 10px;
+ border: none;
+ background-color: #03486f;
+ border-radius: 4px;
+ color: white;
+}
+
+
+/* IMAGES */
+.marketplace-card-img-oo {
+  background-image: url("https://4cje2d1pi1bf1e8rab3ukqp4-wpengine.netdna-ssl.com/wp-content/uploads/2014/09/order-online.jpg");
+  border-bottom: 15px solid #DDCEB9;
+ }
+
+ .marketplace-card-img-website {
+  background-image: url("http://res.cloudinary.com/highereducation/image/upload/v1493683468/Legacy/OEDb/graphic-design-1.jpg");
+  border-bottom: 15px solid #395779;
+ }
+
+
+ .marketplace-card-img-sh {
+  background-image: url("https://digitalmarketing.blob.core.windows.net/8981/images/items/image447398.jpg");
+  border-bottom: 15px solid seagreen;
+ }
+
+ .marketplace-card-img-logo {
+  background-image: url("http://www.businesity.com/wp-content/uploads/2013/02/137189720.png");
+  border-bottom: 15px solid #F4A200;
+ }
+

@@ -8,7 +8,6 @@
 .body-content .fa {
  font-size: 28px;
  margin-bottom: 5px;
- color: #fff;
 }
 
 .widgets-holder {
@@ -18,3 +17,6 @@
  justify-items: center;
 }
 
+.nav .fa {
+ color: #fff;
+}
